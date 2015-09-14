@@ -10,11 +10,11 @@
 
 
   <dependencies>
-      <dependency>
+      <!--<dependency>
         <groupId>com.aeromexico.test</groupId>
         <artifactId>am_example</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-      </dependency>
+      </dependency>-->
       <dependency>
   			<groupId>log4j</groupId>
   			<artifactId>log4j</artifactId>
