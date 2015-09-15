@@ -1,1 +1,2 @@
-com/aeromexico/example/modulea/ExampleModuleaTest.class
+com/aeromexico/example/modulea/integration/ExampleIntegrationTest.class
+com/aeromexico/example/modulea/unit/ExampleModuleaTest.class

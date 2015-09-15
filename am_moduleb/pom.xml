@@ -3,15 +3,15 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.aeromexico.example.moduleb</groupId>
   <artifactId>am_moduleb</artifactId>
-  <packaging>war</packaging>
-  <version>1.0</version>
+  <packaging>jar</packaging>
+  <version>0.1-SNAPSHOT</version>
   <name>am_moduleb Maven Webapp</name>
   <url>http://maven.apache.org</url>
 
   <parent>
     <groupId>com.aeromexico.example</groupId>
     <artifactId>aeromexico</artifactId>
-    <version>1.0</version>
+    <version>0.1-SNAPSHOT</version>
   </parent>
 
   <dependencies>
@@ -21,14 +21,27 @@
       <version>1.2.17</version>
     </dependency>
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
+    	<groupId>junit</groupId>
+    	<artifactId>junit</artifactId>
+    	<version>4.11</version>
     </dependency>
   </dependencies>
 
   <build>
     <finalName>am_moduleb</finalName>
+    <plugins>
+      <!-- Apache SureFire (inherits parent config) -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.18.1</version>
+      </plugin>
+      <!-- Apache FailSafe (inherits parent config) -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-failsafe-plugin</artifactId>
+        <version>2.18.1</version>
+      </plugin>
+    </plugins>
   </build>
 </project>
