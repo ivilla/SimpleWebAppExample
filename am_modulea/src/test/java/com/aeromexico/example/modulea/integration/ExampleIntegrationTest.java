@@ -31,11 +31,11 @@ public class ExampleIntegrationTest
     {
       logger.debug("++++++ Integration Test AeroMexico Module A Example...");
 
-      String usera = "Aldo_";
+      String usera = "Aldo";
       ExampleModuleA examplea = new ExampleModuleA();
       assertTrue( examplea.whoAreYou(usera) );
 
-      String userb = "Ramon_";
+      String userb = "Ramon";
       ExampleModuleB exampleb = new ExampleModuleB();
       assertTrue( exampleb.whoAreYou(userb) );
 
