@@ -4,7 +4,7 @@
   <groupId>com.aeromexico.example</groupId>
   <artifactId>aeromexico</artifactId>
   <packaging>pom</packaging>
-  <version>0.3-SNAPSHOT</version>
+  <version>${buildNumber}-0.3-SNAPSHOT</version>
   <name>aeromexico Maven Webapp</name>
   <url>http://maven.apache.org</url>
 
@@ -27,7 +27,7 @@
   </dependencies>
 
   <build>
-    <finalName>aeromexico-${buildNumber}</finalName>
+    <finalName>aeromexico</finalName>
 
     <pluginManagement>
       <plugins>
