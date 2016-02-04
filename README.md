@@ -1,5 +1,4 @@
-# SimpleWebAppExample
-test...
-test2...
-test3...
-Ejemplo de una aplicacion web parent y sus diferentes modulos, tambien usando un proyecto externo como dependencia
+# simple-web-app-example
+This is an example of a maven project with a parent project and two modules, also using a external project as a dependency
+
+
